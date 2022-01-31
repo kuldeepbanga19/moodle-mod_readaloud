@@ -31,6 +31,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+
+
 use \mod_readaloud\constants;
 use \mod_readaloud\utils;
 
@@ -40,7 +42,7 @@ use \mod_readaloud\utils;
 
 /**
  * Returns the information on whether the module supports a feature
- *
+ * lib.php
  * @see plugin_supports() in lib/moodlelib.php
  * @param string $feature FEATURE_xx constant for requested feature
  * @return mixed true if the feature is supported, null if unknown
